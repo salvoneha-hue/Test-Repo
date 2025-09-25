@@ -27,7 +27,7 @@ def test_loginPage(page:Page):
     loginPage.login(userName,userPassword)
     time.sleep(5)
 
-#Open CIP app
+#Open CIP app in home page
     cipAppPage = CipAppPage(page)
     cipAppPage.open_cip_app()
     time.sleep(5)
